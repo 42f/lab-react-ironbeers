@@ -14,13 +14,13 @@ const NewBeer = () => {
 	const [postError, setPostError] = useState('');
 
 	/* FORM STATES  ------------------------------------------------------------*/
-	const [name, setName] = useState('GO VOTE 🍺 🇫🇷🇫🇷🇫🇷  🍺 ');
-	const [tagline, setTagline] = useState('GO VOTE 🍺 🇫🇷🇫🇷🇫🇷  🍺 ');
-	const [description, setDescription] = useState('GO VOTE 🍺 🇫🇷🇫🇷🇫🇷  🍺 ');
-	const [firstBrewed, setFirstBrewed] = useState('GO VOTE 🍺 🇫🇷🇫🇷🇫🇷  🍺 ');
-	const [brewersTips, setBrewersTips] = useState('GO VOTE 🍺 🇫🇷🇫🇷🇫🇷  🍺 ');
+	const [name, setName] = useState('');
+	const [tagline, setTagline] = useState('');
+	const [description, setDescription] = useState('');
+	const [firstBrewed, setFirstBrewed] = useState('');
+	const [brewersTips, setBrewersTips] = useState('');
 	const [attenuationLevel, setAttenuationLevel] = useState(0);
-	const [contributedBy, setContributedBy] = useState('GO VOTE 🍺 🇫🇷🇫🇷🇫🇷  🍺 ');
+	const [contributedBy, setContributedBy] = useState('');
 	const [formError, setFormError] = useState(null);
 
 	/* FORM HANDLERS  ---------------------------------------------------------*/
