@@ -1,0 +1,48 @@
+.beer-card {
+	text-decoration: none;
+	color: black;
+  padding: 20px 0;
+  width: 100%;
+  min-height: 120px;
+  border-bottom: lightgray 1px solid;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.beer-card picture {
+  width: 100px;
+  height: 100px;
+  margin: 0 5px;
+}
+
+.beer-card img {
+  height: 120px;
+}
+
+.beer-card-infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.beer-card-infos h2, h3{
+	text-align: left;
+  font-weight: 400;
+  max-width: 300px;
+  margin: 6px 0;
+}
+
+.beer-card-infos h3{
+	color: gray;
+}
+
+.beer-card-infos p {
+  max-width: 300px;
+  font-size: 0.8rem;
+  text-align: left;
+  margin: 5px 0;
+  padding: 0;
+  line-height: 1.4rem;
+}

@@ -1,0 +1,12 @@
+header {
+  background-color: rgb(44, 187, 255);
+	margin: 2px;
+  height: 55px;
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+header a {
+	text-decoration: none;
+}

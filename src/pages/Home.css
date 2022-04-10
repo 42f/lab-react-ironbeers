@@ -1,0 +1,21 @@
+.home-container a {
+  display: flex;
+  flex-direction: column;
+	text-decoration: none;
+	color: #000;
+	margin: 0;
+}
+
+.home-container a h2 {
+	text-align: left;
+	margin: 0 0 0 5%;
+	font-size: 2.5rem;
+	font-weight: 200;
+}
+
+.home-container a p {
+	text-align: justify;
+  width: 90%;
+	font-weight: 300;
+  margin: 0 5% 2rem 5%;
+}

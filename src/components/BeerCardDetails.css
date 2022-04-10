@@ -1,0 +1,45 @@
+.BeerCardDetails * {
+  text-align: left;
+}
+
+.BeerCardDetails img {
+	margin: 40px 0;
+  height: 250px;
+}
+
+.BeerCardDetails div, p {
+  word-wrap: anywhere;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+}
+
+.BeerCardDetails h2,
+h3 {
+  text-align: left;
+  font-weight: 400;
+  max-width: 300px;
+  margin: 6px 0;
+}
+
+.BeerCardDetails h3 {
+  color: gray;
+}
+
+#contribution {
+  color: gray;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+#attenuation {
+	color: rgb(173, 173, 173);
+	font-weight: 300;
+	font-size: 1.9rem;
+}
+
+#first_brewed {
+	font-weight: bold;
+}
